@@ -1,0 +1,29 @@
+#
+labs inv schematic
+I3
+#
+basic GND symbol
+I4
+I1
+#
+basic VDD symbol
+I5
+I0
+#
+gpdk090 pmos1v symbol
+PM3
+PM2
+PM1
+PM0
+#
+gpdk090 nmos1v symbol
+NM3
+NM2
+NM1
+NM0
+#ISCELL
+basic ipin symbol
+PIN0
+#ISCELL
+basic opin symbol
+PIN1
