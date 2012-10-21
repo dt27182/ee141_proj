@@ -1,0 +1,14 @@
+#
+gpdk090 pmos1v ivpcell
++2
++3
+#
+gpdk090 nmos1v ivpcell
++0
++1
+#ISCELL
+gpdk090 Metal1_T symbolic
+I12
+I11
+I7
+I13

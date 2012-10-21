@@ -11,3 +11,5 @@ SOFTINCLUDE /usr/local/cadence/IC5141USR5/share/cdssetup/cds.lib
 DEFINE labs ~/ee141_proj/labs
 DEFINE avTech /usr/local/cadence/IC5141USR5/../Assura0320001/tools/assura/etc/avtech/avTech
 DEFINE sram ~/ee141_proj/sram
+#Removed by ddDeleteObj: DEFINE inv_1x /home/cc/ee141/fa12/class/ee141-ak/ee141_proj/inv/inv_1x
+DEFINE inv_1x ~/ee141_proj/inv_1x
