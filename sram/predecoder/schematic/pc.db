@@ -1,12 +1,19 @@
 #
-labs inv schematic
-I3
+gpdk090 pmos1v ads
+PM5
+PM4
+#
+gpdk090 nmos1v ads
+NM5
+NM4
 #
 basic GND symbol
+I11
 I4
 I1
 #
 basic VDD symbol
+I10
 I5
 I0
 #
