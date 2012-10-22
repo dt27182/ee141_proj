@@ -1,6 +1,6 @@
 #
-sram postdecoder schematic
-I1
+inv_1x inv_1x schematic
+I2
 #
 sram predecoder schematic
 I0
