@@ -1,6 +1,6 @@
 #
 gpdk090 nmos1v symbol
-NM0
+NM1
 #
 basic GND symbol
 I1
@@ -9,7 +9,7 @@ basic VDD symbol
 I0
 #
 gpdk090 pmos1v symbol
-PM1
+PM2
 #ISCELL
 basic ipin symbol
 PIN0
