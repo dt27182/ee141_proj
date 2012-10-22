@@ -7,3 +7,13 @@ I0
 #ISCELL
 basic ipin symbol
 PIN0
+#ISCELL
+basic iopin symbolr
+PIN8
+PIN7
+PIN6
+PIN5
+PIN1
+PIN4
+PIN3
+PIN2
