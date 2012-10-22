@@ -1,0 +1,6 @@
+#
+sram sram_row schematic
+I1
+#
+sram postdecoder schematic
+I0
