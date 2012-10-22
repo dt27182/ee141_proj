@@ -1,3 +1,9 @@
 #
 inv_1x inv_1x schematic
 I1
+#ISCELL
+basic ipin symbol
+PIN0
+#ISCELL
+basic opin symbol
+PIN1

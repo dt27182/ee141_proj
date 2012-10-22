@@ -4,3 +4,6 @@ I1
 #
 sram postdecoder schematic
 I0
+#ISCELL
+basic ipin symbol
+PIN0
