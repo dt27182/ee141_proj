@@ -1,35 +1,17 @@
 #
-gpdk090 pmos1v ads
-PM5
-PM4
+sram nand2 schematic
+I14
 #
-gpdk090 nmos1v ads
-NM5
-NM4
+sram nor schematic
+I13
 #
-basic GND symbol
-I11
-I4
-I1
-#
-basic VDD symbol
-I10
-I5
-I0
-#
-gpdk090 pmos1v symbol
-PM3
-PM2
-PM1
-PM0
-#
-gpdk090 nmos1v symbol
-NM3
-NM2
-NM1
-NM0
+sram nand schematic
+I12
 #ISCELL
 basic ipin symbol
+PIN5
+PIN4
+PIN3
 PIN0
 #ISCELL
 basic opin symbol
