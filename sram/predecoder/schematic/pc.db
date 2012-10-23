@@ -10,9 +10,9 @@ I12
 #ISCELL
 basic ipin symbol
 PIN5
+PIN0
 PIN4
 PIN3
-PIN0
 #ISCELL
 basic opin symbol
 PIN1
