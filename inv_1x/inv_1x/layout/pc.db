@@ -1,9 +1,9 @@
 #
-gpdk090 pmos1v layout
-I2
-#
 gpdk090 nmos1v layout
 I1
+#
+gpdk090 pmos1v layout
+I2
 #ISCELL
 gpdk090 Metal1_T symbolic
 I7
