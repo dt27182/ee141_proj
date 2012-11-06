@@ -1,12 +1,71 @@
 #
-sram 5_6_LUT schematic
-I3
-I2
-I1
-I0
-#ISCELL
-basic opin symbol
-PIN0
+sram inv_1x symbol
+I15
+I16
+I17
+#
+sram mux2 symbol
+I13
+I14
+I12
+#
+sram 5_6_LUT_Output_Decoder symbol
+I11
+I10
+I9
+I8
+#
+sram mux_vertical_logic_sub symbol
+I4
+I7
+I5
+I6
 #ISCELL
 basic ipin symbol
+PIN36
+PIN39
+PIN38
+PIN40
+PIN34
+PIN35
+PIN42
+PIN41
+PIN37
+PIN48
+PIN47
+PIN46
+PIN32
+PIN33
+PIN31
+PIN30
+PIN29
+PIN26
+PIN27
+PIN28
+PIN15
+PIN14
+PIN13
+PIN12
+PIN11
+PIN6
+PIN5
 PIN1
+PIN0
+PIN9
+PIN8
+PIN4
+PIN3
+PIN2
+PIN10
+PIN7
+#ISCELL
+basic opin symbol
+PIN43
+PIN23
+PIN22
+PIN21
+PIN20
+PIN19
+PIN18
+PIN17
+PIN16

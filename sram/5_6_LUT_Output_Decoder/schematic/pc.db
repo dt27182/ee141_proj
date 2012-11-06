@@ -1,3 +1,12 @@
+#
+sram inv_1x symbol
+I3
+I4
+#
+sram mux2 symbol
+I2
+I1
+I0
 #ISCELL
 basic ipin symbol
 PIN5
