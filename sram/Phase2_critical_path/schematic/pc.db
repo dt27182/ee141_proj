@@ -1,0 +1,27 @@
+#
+sram xor symbol
+I14
+I13
+I12
+#
+sram inv_1x symbol
+I11
+I10
+I9
+#
+sram mux2 symbol
+I8
+I7
+I6
+I5
+I4
+I3
+I2
+I1
+I0
+#ISCELL
+basic opin symbol
+PIN0
+#ISCELL
+basic ipin symbol
+PIN1
