@@ -1,0 +1,19 @@
+#
+sram inv_1x symbol
+I1
+#
+sram mux2 symbol
+I0
+#ISCELL
+basic ipin symbol
+PIN8
+PIN7
+PIN4
+PIN3
+PIN1
+PIN0
+#ISCELL
+basic opin symbol
+PIN5
+PIN6
+PIN2

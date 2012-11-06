@@ -1,0 +1,66 @@
+#
+gpdk090 pmos1v layout
+|NM22
+|NM23
+|NM20
+|NM21
+|NM17
+|NM13
+|NM14
+|NM18
+|NM16
+|NM15
+|NM19
+|NM12
+#
+gpdk090 nmos1v layout
+|NM2
+|NM0
+|NM1
+|NM3
+|NM9
+|NM10
+|NM11
+|NM7
+|NM5
+|NM6
+|NM4
+|NM8
+#ISCELL
+gpdk090 Metal1_T symbolic
+GND!
+VDD!
+#ISCELL
+gpdk090 M1_PO symbolic
+I7
+I2
+I27
+I22
+I10
+I6
+I12
+I23
+#ISCELL
+gpdk090 M2_M1 symbolic
+I4
+I3
+I26
+I8
+I9
+I5
+I11
+I21
+I24
+#ISCELL
+gpdk090 M1_NWELL symbolic
+I1
+#ISCELL
+gpdk090 M1_PSUB symbolic
+I30
+#ISCELL
+gpdk090 Metal2_T symbolic
+Sbar
+B
+Cobar
+Ci
+A
