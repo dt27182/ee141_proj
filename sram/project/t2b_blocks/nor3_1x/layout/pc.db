@@ -1,0 +1,29 @@
+#
+gpdk090 pmos1v layout
+|PM1
+|PM2
+|PM0
+#
+gpdk090 nmos1v layout
+|NM1
+|NM2
+|NM3
+#ISCELL
+gpdk090 Metal1_T symbolic
+A
+Out
+VDD!
+GND!
+C
+B
+#ISCELL
+gpdk090 M1_PO symbolic
+I1
+I5
+I2
+#ISCELL
+gpdk090 M1_NWELL symbolic
+I3
+#ISCELL
+gpdk090 M1_PSUB symbolic
+I4

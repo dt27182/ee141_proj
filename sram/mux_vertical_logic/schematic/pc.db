@@ -1,0 +1,12 @@
+#
+sram 5_6_LUT schematic
+I3
+I2
+I1
+I0
+#ISCELL
+basic opin symbol
+PIN0
+#ISCELL
+basic ipin symbol
+PIN1

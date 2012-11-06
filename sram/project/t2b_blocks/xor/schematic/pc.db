@@ -1,0 +1,27 @@
+#
+gpdk090 pmos1v symbol
+PM1
+PM2
+PM3
+PM0
+#
+gpdk090 nmos1v symbol
+NM3
+NM2
+NM1
+NM0
+#ISCELL
+basic ipin symbol
+PIN3
+PIN2
+PIN1
+PIN0
+#ISCELL
+basic VDD symbol
+I0
+#ISCELL
+basic GND symbol
+I1
+#ISCELL
+basic opin symbol
+PIN4
