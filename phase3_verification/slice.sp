@@ -173,10 +173,10 @@ xi0 in3 in2 net58 nand
 ** Cell name: output_buffer
 ** View name: schematic
 .subckt output_buffer bl bl_out blb blb_out
-mnm1 blb_out bl 0 0 gpdk090_nmos1v L=100e-9 W=280e-9 AD=44.8e-15 AS=78.4e-15 PD=600e-9 PS=1.12e-6 M=2
-mnm0 bl_out blb 0 0 gpdk090_nmos1v L=100e-9 W=280e-9 AD=44.8e-15 AS=78.4e-15 PD=600e-9 PS=1.12e-6 M=2
-mpm0 bl_out blb vdd! vdd! gpdk090_pmos1v L=100e-9 W=560e-9 AD=89.6e-15 AS=156.8e-15 PD=880e-9 PS=1.68e-6 M=2
-mpm1 blb_out bl vdd! vdd! gpdk090_pmos1v L=100e-9 W=560e-9 AD=89.6e-15 AS=156.8e-15 PD=880e-9 PS=1.68e-6 M=2
+mnm1 bl_out bl 0 0 gpdk090_nmos1v L=100e-9 W=280e-9 AD=44.8e-15 AS=78.4e-15 PD=600e-9 PS=1.12e-6 M=2
+mnm0 blb_out blb 0 0 gpdk090_nmos1v L=100e-9 W=280e-9 AD=44.8e-15 AS=78.4e-15 PD=600e-9 PS=1.12e-6 M=2
+mpm0 blb_out blb vdd! vdd! gpdk090_pmos1v L=100e-9 W=560e-9 AD=89.6e-15 AS=156.8e-15 PD=880e-9 PS=1.68e-6 M=2
+mpm1 bl_out bl vdd! vdd! gpdk090_pmos1v L=100e-9 W=560e-9 AD=89.6e-15 AS=156.8e-15 PD=880e-9 PS=1.68e-6 M=2
 .ends output_buffer
 ** End of subcircuit definition.
 
