@@ -12,6 +12,12 @@ sram sram_block symbol
 I0
 #ISCELL
 basic ipin symbol
+PIN20
+PIN21
+PIN14
+PIN18
+PIN15
+PIN17
 PIN11
 PIN10
 PIN9
