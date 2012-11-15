@@ -1,15 +1,20 @@
 #
 sram xor symbol
+I20
 I14
 I13
 I12
 #
 sram inv_1x symbol
+I19
+I18
 I11
 I10
 I9
 #
 sram mux2 symbol
+I17
+I15
 I8
 I7
 I6
