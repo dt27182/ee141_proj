@@ -68,6 +68,6 @@ Cdumc cout_exp 0 capval
 .op
 
 ** Transient simulation
-.tran .1ns 1.8us
+.tran .1ns 950ns
 
 .end
