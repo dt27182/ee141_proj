@@ -2,3 +2,7 @@
 *.cdslck
 LVS/
 *~
+*.vec
+*.tr0
+*.ic0
+*.st0
