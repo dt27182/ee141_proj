@@ -1,4 +1,8 @@
 #
+sram inv_en_delay symbol
+I41
+I40
+#
 sram nand2 symbol
 I39
 I38

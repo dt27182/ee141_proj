@@ -189,7 +189,7 @@ for i in range(0, 2**LSB_bits):
 	fi.write('\n')
 	tcurrent = tcurrent + tstep
 
-#2.
+# 2a. Read 8 LUT output
 for i in range(0, 2**LSB_bits):
 	inpLSB = bin(i)[2:].zfill(4)
 	#Precharge
@@ -236,6 +236,85 @@ for i in range(0, 2**LSB_bits):
 				fi.write('x'*outputSize[idx]+' ')
 		fi.write('\n')
 		tcurrent = tcurrent + tstep
+	#give time for output to settle before next precharge
+	t_string = str(tcurrent).zfill(4)
+	t_string = '%s.0'%(t_string)
+	fi.write(t_string+' ')
+	for idx, inp in enumerate(inputs):
+		if inp == 'en':
+			fi.write('1'*inputSize[idx]+' ')
+		elif inp == 'write':
+			fi.write('0'*inputSize[idx]+' ')			
+		else:
+			fi.write('x'*inputSize[idx]+' ')
+	for idx, outp in enumerate(outputs):
+		fi.write('x'*outputSize[idx]+' ')
+	fi.write('\n')
+	tcurrent = tcurrent + tstep
+"""
+# 2b. Read 5 LUT outputs
+for i in range(0, 2**LSB_bits):
+	inpLSB = bin(i)[2:].zfill(4)
+	#Precharge
+	t_string = str(tcurrent).zfill(4)
+	t_string = '%s.0'%(t_string)
+	fi.write(t_string+' ')
+	for idx, inp in enumerate(inputs):
+		if inp == 'en':
+			fi.write('0'*inputSize[idx]+' ')			
+		else:
+			fi.write('x'*inputSize[idx]+' ')
+	for idx, outp in enumerate(outputs):
+		fi.write('x'*outputSize[idx]+' ')
+	fi.write('\n')
+	tcurrent = tcurrent + tstep
+	for j in range(0, 2**(MSB_bits - 3)):
+		#Do Read
+		t_string = str(tcurrent).zfill(4)
+		t_string = '%s.0'%(t_string)
+		fi.write(t_string+' ')
+		expected_outputs = ''
+		for k in range (0, 2**(MSB_bits - 1)):
+			inpMSB = bin(k)[2:].zfill(3) + str(j)
+			expected_output = str(int((int(inpLSB[0]) or int(inpLSB[1]) or int(inpLSB[2]) or int(inpLSB[3])) and ((not int(inpMSB[0])) or (not int(inpMSB[1])) or (not int(inpMSB[2])) or (not int(inpMSB[3])))))
+			expected_outputs = expected_outputs + expected_output
+		expected_outputs = expected_outputs[::-1]
+		for idx, inp in enumerate(inputs):
+			if inp == 'en':
+				fi.write('1'*inputSize[idx]+' ')
+			elif inp == 'write':
+				fi.write('0'*inputSize[idx]+' ')
+			elif inp == 'ina' or inp == 'inb' or inp == 'inc' or inp == 'ind':
+				fi.write('1' + str(j) + inpLSB + ' ')
+			elif inp == 'asout' or inp == 'bsout' or inp == 'csout' or inp == 'dsout':
+				fi.write('00' + ' ')
+			elif inp == 'out_exp':
+				fi.write(expected_outputs + ' ')		
+			else:
+				fi.write('x'*inputSize[idx]+' ')
+		for idx, outp in enumerate(outputs):
+			if outp == 'out':
+				fi.write(expected_outputs + ' ')
+			else:
+				fi.write('x'*outputSize[idx]+' ')
+		fi.write('\n')
+		tcurrent = tcurrent + tstep
+	#give time for output to settle before next precharge
+	t_string = str(tcurrent).zfill(4)
+	t_string = '%s.0'%(t_string)
+	fi.write(t_string+' ')
+	for idx, inp in enumerate(inputs):
+		if inp == 'en':
+			fi.write('1'*inputSize[idx]+' ')
+		elif inp == 'write':
+			fi.write('0'*inputSize[idx]+' ')			
+		else:
+			fi.write('x'*inputSize[idx]+' ')
+	for idx, outp in enumerate(outputs):
+		fi.write('x'*outputSize[idx]+' ')
+	fi.write('\n')
+	tcurrent = tcurrent + tstep
+"""
 	#############################
 	# Now you need to create strings to set data and data_b, compute F and activate the correct cell in the LUT to write into
 	#############################

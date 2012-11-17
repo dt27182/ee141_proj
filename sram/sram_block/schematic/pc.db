@@ -1,9 +1,9 @@
 #
 sram output_buffer symbol
+I28
 I27
 I24
 I25
-I26
 #
 sram pulldown symbol
 I20
@@ -39,17 +39,17 @@ basic ipin symbol
 PIN35
 PIN36
 PIN21
+PIN17
 PIN18
 PIN19
 PIN32
-PIN33
-PIN22
-PIN17
 PIN16
+PIN33
 PIN1
 PIN2
 PIN3
 PIN0
+PIN22
 PIN15
 PIN14
 PIN13

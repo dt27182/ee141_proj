@@ -78,10 +78,10 @@ xi15 ax net161 inv_1x
 xi13 ax net161 out1 out3 net233 mux2
 xi12 bx net171 out5 out7 net206 mux2
 xi14 cx net166 net233 net206 net224 mux2
-xd_decode ind4 ind5 l12 l13 l14 l15 net179 out7 sram_5_6_LUT_Output_Decoder_schematic
-xc_decode inc4 inc5 l8 l9 l10 l11 net187 out5 sram_5_6_LUT_Output_Decoder_schematic
-xb_decode inb4 inb5 l4 l5 l6 l7 net195 out3 sram_5_6_LUT_Output_Decoder_schematic
-xa_decode ina4 ina5 l0 l1 l2 l3 net203 out1 sram_5_6_LUT_Output_Decoder_schematic
+xi11 ind4 ind5 l12 l13 l14 l15 net179 out7 sram_5_6_LUT_Output_Decoder_schematic
+xi10 inc4 inc5 l8 l9 l10 l11 net187 out5 sram_5_6_LUT_Output_Decoder_schematic
+xi9 inb4 inb5 l4 l5 l6 l7 net195 out3 sram_5_6_LUT_Output_Decoder_schematic
+xi8 ina4 ina5 l0 l1 l2 l3 net203 out1 sram_5_6_LUT_Output_Decoder_schematic
 xi4 cin net227 net179 out7 net206 out6 dsout0 dsout1 mux_vertical_logic_sub
 xi7 net218 cout net203 out1 net0241 out0 asout0 asout1 mux_vertical_logic_sub
 xi5 net227 net236 net187 out5 net224 out4 csout0 csout1 mux_vertical_logic_sub
@@ -306,19 +306,12 @@ xi5 in3 net14 inv_1x
 xi4 in2 net16 inv_1x
 xi3 in1 net18 inv_1x
 xi2 in0 net20 inv_1x
-xi1 en in0 net20 in1 net18 in2 net16 in3 net14 net45 net44 net35 net34 net33 net32 net31 net30 net43 net42 net41 net0193 net39 net38 net37 net36 full_predecoder
-xi0 out0 out1 out2 out3 net69 net68 net67 net66 data0 data1 data2 data3 data_b0 data_b1 data_b2 data_b3 en net45 net44 net35 net34 net33 net32 net31 net30 net43 net42 net41 net39 net38 net37 net36 write net0193 sram_block
+xpredecode en in0 net20 in1 net18 in2 net16 in3 net14 net45 net44 net35 net34 net33 net32 net31 net30 net43 net42 net41 net0193 net39 net38 net37 net36 full_predecoder
+xsram out0 out1 out2 out3 net69 net68 net67 net66 data0 data1 data2 data3 data_b0 data_b1 data_b2 data_b3 en net45 net44 net35 net34 net33 net32 net31 net30 net43 net42 net41 net39 net38 net37 net36 write net0193 sram_block
 .ends sram_5_6_LUT_schematic
 ** End of subcircuit definition.
 
-** Library name: sram
-** Cell name: slice
-** View name: schematic
-.subckt slice a_data_0 a_data_1 a_data_2 a_data_3 a_data_b0 a_data_b1 a_data_b2 a_data_b3 asout0 asout1 ax b_data_0 b_data_1 b_data_2 b_data_3 b_data_b0 b_data_b1 b_data_b2 b_data_b3 bsout0 bsout1 bx c_data_0 c_data_1 c_data_2 c_data_3 c_data_b0 c_data_b1 c_data_b2 c_data_b3 cin cout csout0 csout1 cx d_data_0 d_data_1 d_data_2 d_data_3 d_data_b0 d_data_b1 d_data_b2 d_data_b3 dsout0 dsout1 en ina0 ina1 ina2 ina3 ina4 ina5 inb0 inb1 inb2 inb3 inb4 inb5 inc0 inc1 inc2 inc3 inc4 inc5 ind0 ind1 ind2 ind3 ind4 ind5 out0 out1 out2 out3 out4 out5 out6 out7 write
-xvertlogic asout0 asout1 ax bsout0 bsout1 bx cin cout csout0 csout1 cx dsout0 dsout1 ina4 ina5 inb4 inb5 inc4 inc5 ind4 ind5 net81 net80 net103 net102 net0228 net92 net91 net90 net79 net78 net0237 net116 net115 net0234 net0233 net104 out0 out1 out2 out3 out4 out5 out6 out7 mux_vertical_logic
-xalut a_data_0 a_data_1 a_data_2 a_data_3 a_data_b0 a_data_b1 a_data_b2 a_data_b3 en ina0 ina1 ina2 ina3 net81 net80 net79 net78 write sram_5_6_LUT_schematic
-xdlut d_data_0 d_data_1 d_data_2 d_data_3 d_data_b0 d_data_b1 d_data_b2 d_data_b3 en ind0 ind1 ind2 ind3 net0228 net92 net91 net90 write sram_5_6_LUT_schematic
-xclut c_data_0 c_data_1 c_data_2 c_data_3 c_data_b0 c_data_b1 c_data_b2 c_data_b3 en inc0 inc1 inc2 inc3 net0233 net104 net103 net102 write sram_5_6_LUT_schematic
-xblut b_data_0 b_data_1 b_data_2 b_data_3 b_data_b0 b_data_b1 b_data_b2 b_data_b3 en inb0 inb1 inb2 inb3 net0237 net116 net115 net0234 write sram_5_6_LUT_schematic
-.ends slice
-** End of subcircuit definition.
+.subckt full_LUT data0 data1 data2 data3 data_b0 data_b1 data_b2 data_b3 en in0 in1 in2 in3 in4 in5 O5 O6 write
+xsublut data0 data1 data2 data3 data_b0 data_b1 data_b2 data_b3 en in0 in1 in2 in3 out0 out1 out2 out3 write sram_5_6_LUT_schematic
+xoutputdecode in4 in5 out0 out1 out2 out3 O5 O6 sram_5_6_LUT_Output_Decoder_schematic
+.ends full_LUT
