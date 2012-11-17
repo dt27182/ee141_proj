@@ -69,6 +69,6 @@ Cdumc cout_exp 0 capval
 .op
 *.probe tran V(dout0) V(dout1) V(dout2) V(dout3)
 ** Transient simulation
-.tran .1ns 960ns
+.tran .1ns 180ns
 
 .end
