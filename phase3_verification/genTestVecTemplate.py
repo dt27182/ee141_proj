@@ -188,7 +188,9 @@ for i in range(0, 2**LSB_bits):
 		fi.write('x'*outputSize[idx]+' ')
 	fi.write('\n')
 	tcurrent = tcurrent + tstep
-"""# 2a. Read 8 LUT output
+
+
+# 2a. Read 8 LUT output
 for i in range(0, 2**LSB_bits):
 	inpLSB = bin(i)[2:].zfill(4)
 	#Precharge
@@ -313,7 +315,7 @@ for i in range(0, 2**LSB_bits):
 		fi.write('x'*outputSize[idx]+' ')
 	fi.write('\n')
 	tcurrent = tcurrent + tstep
-
+"""
 	#############################
 	# Now you need to create strings to set data and data_b, compute F and activate the correct cell in the LUT to write into
 	#############################

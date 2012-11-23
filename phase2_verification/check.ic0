@@ -1,7 +1,7 @@
 * "simulator" "HSPICE" 
 * "version" "A-2008.03-SP1 32-BIT"
 * "format" "HSP"
-* "rundate" "22:17:14 11/05/2012 "
+* "rundate" "19:21:28 11/16/2012 "
 * "netlist" "check.sp "
 * "runtitle" "** ee 141 term project fall 2012 phase ii - mux and vertical logic blo"
 * time =    0.            
