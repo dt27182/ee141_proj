@@ -1,0 +1,21 @@
+#
+gpdk090 pmos1v ivpcell
++4
++5
+#
+gpdk090 nmos1v ivpcell
++1
++2
++0
++3
+#ISCELL
+gpdk090 Metal3_T symbolic
+I12
+I28
+#ISCELL
+gpdk090 Metal1_T symbolic
+VDD!
+I22
+#ISCELL
+gpdk090 Metal2_T symbolic
+I13

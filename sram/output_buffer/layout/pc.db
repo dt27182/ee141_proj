@@ -23,8 +23,8 @@ gpdk090 M1_NWELL symbolic
 I16
 #ISCELL
 gpdk090 Metal3_T symbolic
-blb
 bl
+blb
 #ISCELL
 gpdk090 M1_PSUB symbolic
 I5
