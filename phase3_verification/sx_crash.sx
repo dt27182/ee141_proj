@@ -1,0 +1,75 @@
+### WaveView Analyzer session file (version C2009.03 build 0903) ###
+### saved at 19:13:33 on Mon Nov 26 2012 ###
+wdf 0 "/home/cc/ee141/fa12/class/ee141-ak/ee141_proj/phase3_verification/check.tr0" load=used 
+scalar list
+waveview_begin 1  stack  offset=0 name_b=361 mntr_b=418 mcur=5.4105e-08   vc=cur-pnl geo=1200:90:700:400 "name=waveview 1" 
+  panel_begin linear pidx=0 spath=true 
+    line src=wdf fidx=0 "name=v(out<4>)" disp=show 
+  panel_end
+  panel_begin linear pidx=1 spath=true 
+    line src=wdf fidx=0 "name=v(out_exp<4>)" disp=show 
+  panel_end
+  panel_begin linear pidx=2 spath=true 
+    line src=wdf fidx=0 "name=xslice.xa_lut.xsram_block.xrow0.xsram_row.xcol0.v(s_val)" disp=show 
+  panel_end
+  panel_begin linear pidx=3 spath=true 
+    line src=wdf fidx=0 "name=xslice.xa_lut.xsram_block.xrow0.xsram_row.xcol1.v(s_val)" disp=show 
+  panel_end
+  panel_begin linear pidx=4 spath=true 
+    line src=wdf fidx=0 "name=xslice.xa_lut.xsram_block.xrow0.xsram_row.xcol2.v(s_val)" disp=show 
+  panel_end
+  panel_begin linear pidx=5 spath=true 
+    line src=wdf fidx=0 "name=xslice.xa_lut.xsram_block.xrow0.xsram_row.xcol3.v(s_val)" disp=show 
+  panel_end
+  panel_begin linear pidx=6 spath=true 
+    line src=wdf fidx=0 "name=xslice.xd_lut.xsram_block.xrow0.xsram_row.xcol0.v(s_val)" disp=show 
+  panel_end
+  panel_begin linear pidx=7 spath=true 
+    line src=wdf fidx=0 "name=xslice.xd_lut.xsram_block.xrow0.xsram_row.xcol2.v(s_val)" disp=show 
+  panel_end
+  panel_begin linear pidx=8 spath=true 
+    line src=wdf fidx=0 "name=xslice.xd_lut.xsram_block.xrow0.xsram_row.xcol2.v(s_val)" disp=show 
+  panel_end
+  panel_begin linear pidx=9 spath=true 
+    line src=wdf fidx=0 "name=xslice.xd_lut.xsram_block.xrow0.xsram_row.xcol3.v(s_val)" disp=show 
+  panel_end
+  panel_begin linear pidx=10 spath=true 
+    line src=wdf fidx=0 "name=xslice.xa_lut.xsram_block.xrow0.xsram_row.xcol0.v(s_val_b)" disp=show 
+  panel_end
+  panel_begin linear pidx=11 spath=true 
+    line src=wdf fidx=0 "name=xslice.xa_lut.xsram_block.xrow0.xsram_row.xcol1.v(s_val_b)" disp=show 
+  panel_end
+  panel_begin linear pidx=12 spath=true 
+    line src=wdf fidx=0 "name=xslice.xa_lut.xsram_block.xrow0.xsram_row.xcol2.v(s_val_b)" disp=show 
+  panel_end
+  panel_begin linear pidx=13 spath=true 
+    line src=wdf fidx=0 "name=xslice.xa_lut.xsram_block.xrow0.xsram_row.xcol3.v(s_val_b)" disp=show 
+  panel_end
+  panel_begin linear pidx=14 spath=true 
+    line src=wdf fidx=0 "name=xslice.xa_lut.xsram_block.v(bl0)" disp=show 
+  panel_end
+  panel_begin linear pidx=15 spath=true 
+    line src=wdf fidx=0 "name=xslice.xa_lut.xsram_block.v(blb0)" disp=show 
+  panel_end
+  panel_begin linear pidx=16 spath=true 
+    line src=wdf fidx=0 "name=v(en)" disp=show 
+  panel_end
+  panel_begin linear pidx=17 spath=true 
+    line src=wdf fidx=0 "name=v(write)" disp=show 
+  panel_end
+  panel_begin linear pidx=18 spath=true 
+    line src=wdf fidx=0 "name=xslice.xd_lut.xsram_block.v(bl3)" disp=show 
+  panel_end
+  panel_begin linear pidx=19 spath=true 
+    line src=wdf fidx=0 "name=xslice.xd_lut.xsram_block.v(blb3)" disp=show 
+  panel_end
+  panel_begin linear pidx=20 spath=true 
+    line src=wdf fidx=0 "name=xslice.xd_lut.xsram_block.v(bl2)" disp=show 
+  panel_end
+  panel_begin linear pidx=21 spath=true 
+    line src=wdf fidx=0 "name=xslice.xd_lut.xsram_block.v(blb2)" disp=show 
+  panel_end
+  panel_begin linear pidx=22 spath=true 
+    line src=wdf fidx=0 "name=xslice.xa_lut.v(wl0)" disp=show 
+  panel_end
+waveview_end

@@ -1,15 +1,14 @@
 #
 sram sram_cell symbol
-I3
-I2
-I1
-I0
+col3
+col2
+col1
+col0
 #ISCELL
 basic ipin symbol
 PIN0
 #ISCELL
 basic iopin symbolr
-PIN8
 PIN7
 PIN6
 PIN5
@@ -17,3 +16,4 @@ PIN4
 PIN3
 PIN2
 PIN1
+PIN8

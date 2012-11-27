@@ -1,6 +1,6 @@
 #
 sram sram_row schematic
-I1
+sram_row
 #
 sram postdecoder schematic
 I0

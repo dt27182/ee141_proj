@@ -1,12 +1,12 @@
 #
 sram mux_vertical_logic symbol
-I4
+vert_logic
 #
 sram 5_6_LUT symbol
-I3
-I2
-I1
-I0
+A_LUT
+D_LUT
+C_LUT
+B_LUT
 #ISCELL
 basic ipin symbol
 PIN55

@@ -74,7 +74,7 @@ for idx, outp in enumerate(outputs):
 	fi.write('1'*outputSize[idx]+' ')
 fi.write('\n')
 
-fi.write('slope 1.2')
+fi.write('slope ' + str(slope)) 
 fi.write('\n')
 fi.write('vih 1.2')
 fi.write('\n')
@@ -513,12 +513,16 @@ for i in range(0, 16):
 				elif inp == 'cx':
 					fi.write('x' + ' ')
 				elif inp == 'out_exp':
-					fi.write('x' + str(expected_sum_0[j]) + 'x' + str(expected_sum_1[j]) + 'x' + str(expected_sum_2[j]) + 'x' + str(expected_sum_3[j])+ ' ')		
+					fi.write('x' + str(expected_sum_0[j]) + 'x' + str(expected_sum_1[j]) + 'x' + str(expected_sum_2[j]) + 'x' + str(expected_sum_3[j])+ ' ')	
+				elif inp == 'cout_exp':
+					fi.write(str(expected_cout_3[j]) + ' ')	
 				else:
 					fi.write('x'*inputSize[idx]+' ')
 			for idx, outp in enumerate(outputs):
 				if outp == 'out':
 					fi.write('x' + str(expected_sum_0[j]) + 'x' + str(expected_sum_1[j]) + 'x' + str(expected_sum_2[j]) + 'x' + str(expected_sum_3[j])+ ' ')
+				elif outp == 'cout':
+					fi.write(str(expected_cout_3[j]) + ' ')
 				else:
 					fi.write('x'*outputSize[idx]+' ')
 			fi.write('\n')
