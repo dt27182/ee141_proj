@@ -99,84 +99,76 @@ mnm0 out in 0 0 gpdk090_nmos1v L=100e-9 W=410e-9 AD=114.8e-15 AS=114.8e-15 PD=1.
 ** End of subcircuit definition.
 
 ** Library name: sram
-** Cell name: nand2
+** Cell name: decoder_2nd_nor
 ** View name: schematic
-.subckt nand2 in1 in2 out
-mnm1 net4 in2 0 0 gpdk090_nmos1v L=100e-9 W=500e-9 AD=140e-15 AS=140e-15 PD=1.56e-6 PS=1.56e-6 M=1
-mnm0 out in1 net4 0 gpdk090_nmos1v L=100e-9 W=500e-9 AD=140e-15 AS=140e-15 PD=1.56e-6 PS=1.56e-6 M=1
-mpm1 out in2 vdd! vdd! gpdk090_pmos1v L=100e-9 W=590e-9 AD=165.2e-15 AS=165.2e-15 PD=1.74e-6 PS=1.74e-6 M=1
-mpm0 out in1 vdd! vdd! gpdk090_pmos1v L=100e-9 W=590e-9 AD=165.2e-15 AS=165.2e-15 PD=1.74e-6 PS=1.74e-6 M=1
-.ends nand2
-** End of subcircuit definition.
-
-** Library name: sram
-** Cell name: nor
-** View name: schematic
-.subckt nor in1 in2 out
-mpm1 out in1 net028 vdd! gpdk090_pmos1v L=100e-9 W=565e-9 AD=158.2e-15 AS=158.2e-15 PD=1.69e-6 PS=1.69e-6 M=1
-mpm0 net028 in2 vdd! vdd! gpdk090_pmos1v L=100e-9 W=565e-9 AD=158.2e-15 AS=158.2e-15 PD=1.69e-6 PS=1.69e-6 M=1
+.subckt decoder_2nd_nor in1 in2 out
 mnm1 out in2 0 0 gpdk090_nmos1v L=100e-9 W=120e-9 AD=69.6e-15 AS=69.6e-15 PD=1.16e-6 PS=1.16e-6 M=1
 mnm0 out in1 0 0 gpdk090_nmos1v L=100e-9 W=120e-9 AD=69.6e-15 AS=69.6e-15 PD=1.16e-6 PS=1.16e-6 M=1
-.ends nor
+mpm1 out in1 net15 vdd! gpdk090_pmos1v L=100e-9 W=480e-9 AD=134.4e-15 AS=134.4e-15 PD=1.52e-6 PS=1.52e-6 M=1
+mpm0 net15 in2 vdd! vdd! gpdk090_pmos1v L=100e-9 W=480e-9 AD=134.4e-15 AS=134.4e-15 PD=1.52e-6 PS=1.52e-6 M=1
+.ends decoder_2nd_nor
 ** End of subcircuit definition.
 
 ** Library name: sram
-** Cell name: nand
+** Cell name: decoder_nand
 ** View name: schematic
-.subckt nand in1 in2 out
-mpm1 out in2 vdd! vdd! gpdk090_pmos1v L=100e-9 W=710e-9 AD=198.8e-15 AS=198.8e-15 PD=1.98e-6 PS=1.98e-6 M=1
-mpm0 out in1 vdd! vdd! gpdk090_pmos1v L=100e-9 W=710e-9 AD=198.8e-15 AS=198.8e-15 PD=1.98e-6 PS=1.98e-6 M=1
-mnm1 net11 in2 0 0 gpdk090_nmos1v L=100e-9 W=600e-9 AD=168e-15 AS=168e-15 PD=1.76e-6 PS=1.76e-6 M=1
-mnm0 out in1 net11 0 gpdk090_nmos1v L=100e-9 W=600e-9 AD=168e-15 AS=168e-15 PD=1.76e-6 PS=1.76e-6 M=1
-.ends nand
+.subckt decoder_nand in1 in2 out
+mpm1 out in2 vdd! vdd! gpdk090_pmos1v L=100e-9 W=240e-9 AD=67.2e-15 AS=67.2e-15 PD=1.04e-6 PS=1.04e-6 M=1
+mpm0 out in1 vdd! vdd! gpdk090_pmos1v L=100e-9 W=240e-9 AD=67.2e-15 AS=67.2e-15 PD=1.04e-6 PS=1.04e-6 M=1
+mnm1 out in1 net16 0 gpdk090_nmos1v L=100e-9 W=240e-9 AD=67.2e-15 AS=67.2e-15 PD=1.04e-6 PS=1.04e-6 M=1
+mnm0 net16 in2 0 0 gpdk090_nmos1v L=100e-9 W=240e-9 AD=67.2e-15 AS=67.2e-15 PD=1.04e-6 PS=1.04e-6 M=1
+.ends decoder_nand
+** End of subcircuit definition.
+
+** Library name: sram
+** Cell name: decoder_1st_nor
+** View name: schematic
+.subckt decoder_1st_nor in1 in2 out
+mpm1 out in1 net8 vdd! gpdk090_pmos1v L=100e-9 W=480e-9 AD=134.4e-15 AS=134.4e-15 PD=1.52e-6 PS=1.52e-6 M=1
+mpm0 net8 in2 vdd! vdd! gpdk090_pmos1v L=100e-9 W=480e-9 AD=134.4e-15 AS=134.4e-15 PD=1.52e-6 PS=1.52e-6 M=1
+mnm1 out in2 0 0 gpdk090_nmos1v L=100e-9 W=120e-9 AD=69.6e-15 AS=69.6e-15 PD=1.16e-6 PS=1.16e-6 M=1
+mnm0 out in1 0 0 gpdk090_nmos1v L=100e-9 W=120e-9 AD=69.6e-15 AS=69.6e-15 PD=1.16e-6 PS=1.16e-6 M=1
+.ends decoder_1st_nor
 ** End of subcircuit definition.
 
 ** Library name: sram
 ** Cell name: full_predecoder
 ** View name: schematic
 .subckt full_predecoder en in0 in0b in1 in1b in2 in2b in3 in3b wl0 wl1 wl10 wl11 wl12 wl13 wl14 wl15 wl2 wl3 wl4 wl5 wl6 wl7 wl8 wl9
-xi40 en net0165 inv_en_delay
-xi41 net0165 net0163 inv_en_delay
-xi39 net62 net0163 wl0 nand2
-xi38 net65 net0163 wl1 nand2
-xi37 net74 net0163 wl2 nand2
-xi36 net77 net0163 wl3 nand2
-xi35 net80 net0163 wl4 nand2
-xi34 net83 net0163 wl5 nand2
-xi33 net86 net0163 wl6 nand2
-xi32 net89 net0163 wl7 nand2
-xi31 net92 net0163 wl8 nand2
-xi30 net95 net0163 wl9 nand2
-xi29 net98 net0163 wl10 nand2
-xi28 net101 net0163 wl11 nand2
-xi27 net104 net0163 wl12 nand2
-xi26 net71 net0163 wl13 nand2
-xi25 net68 net0163 wl14 nand2
-xi24 net59 net0163 wl15 nand2
-xi23 net58 net99 net59 nor
-xi22 net61 net90 net62 nor
-xi21 net61 net81 net65 nor
-xi20 net58 net96 net68 nor
-xi19 net58 net81 net71 nor
-xi18 net61 net96 net74 nor
-xi17 net61 net99 net77 nor
-xi16 net79 net90 net80 nor
-xi15 net79 net81 net83 nor
-xi14 net79 net96 net86 nor
-xi13 net79 net99 net89 nor
-xi12 net97 net90 net92 nor
-xi11 net97 net81 net95 nor
-xi10 net97 net96 net98 nor
-xi9 net97 net99 net101 nor
-xi8 net58 net90 net104 nor
-xi7 in1b in0 net81 nand
-xi6 in1b in0b net90 nand
-xi5 in1 in0b net96 nand
-xi4 in1 in0 net99 nand
-xi3 in3b in2b net61 nand
-xi2 in3b in2 net79 nand
-xi1 in3 in2b net97 nand
-xi0 in3 in2 net58 nand
+xi75 en net0142 inv_en_delay
+xi74 net0142 net212 inv_en_delay
+xi71 net226 net180 wl2 decoder_2nd_nor
+xi72 net226 net183 wl1 decoder_2nd_nor
+xi73 net226 net171 wl0 decoder_2nd_nor
+xi70 net226 net177 wl3 decoder_2nd_nor
+xi58 net214 net177 wl15 decoder_2nd_nor
+xi59 net214 net180 wl14 decoder_2nd_nor
+xi60 net214 net183 wl13 decoder_2nd_nor
+xi61 net214 net171 wl12 decoder_2nd_nor
+xi62 net220 net177 wl11 decoder_2nd_nor
+xi63 net220 net180 wl10 decoder_2nd_nor
+xi64 net220 net183 wl9 decoder_2nd_nor
+xi65 net220 net171 wl8 decoder_2nd_nor
+xi66 net223 net177 wl7 decoder_2nd_nor
+xi67 net223 net180 wl6 decoder_2nd_nor
+xi68 net223 net183 wl5 decoder_2nd_nor
+xi69 net223 net171 wl4 decoder_2nd_nor
+xi50 net238 net212 net214 decoder_nand
+xi54 net0241 net212 net177 decoder_nand
+xi51 net241 net212 net220 decoder_nand
+xi52 net244 net212 net223 decoder_nand
+xi53 net247 net212 net226 decoder_nand
+xi55 net253 net212 net180 decoder_nand
+xi56 net256 net212 net183 decoder_nand
+xi57 net259 net212 net171 decoder_nand
+xi42 in3b in2b net238 decoder_1st_nor
+xi43 in3b in2 net241 decoder_1st_nor
+xi44 in3 in2b net244 decoder_1st_nor
+xi45 in3 in2 net247 decoder_1st_nor
+xi46 in1b in0b net0241 decoder_1st_nor
+xi47 in1b in0 net253 decoder_1st_nor
+xi48 in1 in0b net256 decoder_1st_nor
+xi49 in1 in0 net259 decoder_1st_nor
 .ends full_predecoder
 ** End of subcircuit definition.
 

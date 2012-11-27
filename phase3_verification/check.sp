@@ -398,10 +398,10 @@ Cdumc cout_exp 0 capval
 .vec 'input_checkpoint.vec'
 
 ** Control info **
-*.options post=2 nomod
-.option probe
-.op
-.probe tran V(out<0>) V(out<1>) V(out<2>) V(out<3>) V(out<4>) V(out<5>) V(out<6>) V(out<7>) V(out_exp<0>) V(out_exp<1>) V(out_exp<2>) V(out_exp<3>) V(out_exp<4>) V(out_exp<5>) V(out_exp<6>) V(out_exp<7>) V(cout) V(cout_exp)
+.options post=2 nomod
+*.option probe
+*.op
+*.probe tran V(out<0>) V(out<1>) V(out<2>) V(out<3>) V(out<4>) V(out<5>) V(out<6>) V(out<7>) V(out_exp<0>) V(out_exp<1>) V(out_exp<2>) V(out_exp<3>) V(out_exp<4>) V(out_exp<5>) V(out_exp<6>) V(out_exp<7>) V(cout) V(cout_exp)
 ** Transient simulation
 .tran .1ns 200ns
 

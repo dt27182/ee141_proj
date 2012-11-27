@@ -1,4 +1,0 @@
-$DATA1 SOURCE='HSPICE' VERSION='A-2008.03-SP1 32-BIT'
-.TITLE '** ee 141 term project fall 2012 phase ii - mux and vertical logic block'
- tphl             tplh             temper           alter#            
-  5.441e-10        5.337e-10         25.0000           1.0000         
