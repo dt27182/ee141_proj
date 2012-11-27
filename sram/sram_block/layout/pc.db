@@ -1,0 +1,84 @@
+#
+sram output_buffer layout
+I11
+I12
+I13
+I14
+#
+sram pulldown layout
+I9
+I8
+I1
+I10
+#
+sram sram_cell_row layout
+I25
+I24
+I36
+I37
+I38
+I39
+I21
+I44
+I43
+I45
+I46
+I47
+I48
+I22
+I7
+I6
+#
+sram precharge layout
+I23
+I5
+I4
+I2
+#
+sram precharge symbol
+I3
+#ISCELL
+gpdk090 Metal2_T symbolic
+I15
+#ISCELL
+gpdk090 M2_M1 symbolic
+I16
+#ISCELL
+gpdk090 Metal4_T symbolic
+I55
+I54
+I53
+I52
+I51
+I50
+I49
+I42
+I41
+I40
+I35
+I34
+I33
+I32
+I31
+I30
+#ISCELL
+gpdk090 Metal1_T symbolic
+I56
+I29
+I28
+I27
+I26
+I20
+I19
+I18
+I17
+#ISCELL
+gpdk090 Metal3_T symbolic
+I64
+I63
+I62
+I61
+I60
+I59
+I58
+I57
