@@ -1,31 +1,37 @@
 #
-sram mux_vertical_logic_sub_AC symbol
-A_LUT_VERT_SUB
-C_LUT_VERT_SUB
+sram mux2_5.94fF symbol
+I31
+#
+sram mux2_4.82fF symbol
+I30
+I29
+#
+sram mux_vertical_logic_sub_D symbol
+D_VERT_LOGIC_SUB
+#
+sram mux_vertical_logic_sub_C symbol
+C_VERT_LOGIC_SUB
+#
+sram mux_vertical_logic_sub_B symbol
+B_VERT_LOGIC_SUB
+#
+sram mux_vertical_logic_sub_A symbol
+A_VERT_LOGIC_SUB
 #
 sram inv_1x symbol
-I24
-I23
 I18
 I19
+I23
+I24
 I17
 I16
 I15
-#
-sram mux2 symbol
-I13
-I12
-I14
 #
 sram 5_6_LUT_Output_Decoder symbol
 D_LUT_DECODE
 C_LUT_DECODE
 B_LUT_DECODE
 A_LUT_DECODE
-#
-sram mux_vertical_logic_sub symbol
-D_LUT_VERT_SUB
-B_LUT_VERT_SUB
 #ISCELL
 basic ipin symbol
 PIN46
