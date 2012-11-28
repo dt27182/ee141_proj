@@ -1,10 +1,4 @@
 #
-sram output_latch symbol
-I31
-I29
-I35
-I33
-#
 sram pulldown symbol
 I20
 I21
@@ -39,7 +33,6 @@ basic ipin symbol
 PIN35
 PIN36
 PIN21
-PIN37
 PIN17
 PIN18
 PIN19

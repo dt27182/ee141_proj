@@ -1,7 +1,4 @@
 #
-sram inv_1x symbol
-I25
-#
 sram inv_0.779fF symbol
 I16
 I17
