@@ -3,6 +3,7 @@ sram xor symbol
 I5
 #
 sram inv_1x symbol
+I16
 I12
 I10
 I7

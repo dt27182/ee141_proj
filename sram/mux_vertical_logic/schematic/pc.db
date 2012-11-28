@@ -1,5 +1,13 @@
 #
+sram mux_vertical_logic_sub_AC symbol
+A_LUT_VERT_SUB
+C_LUT_VERT_SUB
+#
 sram inv_1x symbol
+I24
+I23
+I18
+I19
 I17
 I16
 I15
@@ -17,8 +25,6 @@ A_LUT_DECODE
 #
 sram mux_vertical_logic_sub symbol
 D_LUT_VERT_SUB
-A_LUT_VERT_SUB
-C_LUT_VERT_SUB
 B_LUT_VERT_SUB
 #ISCELL
 basic ipin symbol

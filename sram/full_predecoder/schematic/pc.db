@@ -1,53 +1,45 @@
 #
 sram inv_en_delay symbol
-I41
-I40
+I75
+I74
 #
-sram nand2 symbol
-I39
-I38
-I37
-I36
-I35
-I34
-I33
-I32
-I31
-I30
-I29
-I28
-I27
-I26
-I25
-I24
+sram decoder_2nd_nor symbol
+I71
+I72
+I73
+I70
+I58
+I59
+I60
+I61
+I62
+I63
+I64
+I65
+I66
+I67
+I68
+I69
 #
-sram nor symbol
-I23
-I22
-I21
-I20
-I19
-I18
-I17
-I16
-I15
-I14
-I13
-I12
-I11
-I10
-I9
-I8
+sram decoder_nand symbol
+I50
+I54
+I51
+I52
+I53
+I55
+I56
+I57
 #
-sram nand symbol
-I7
-I6
-I5
-I4
-I3
-I2
-I1
-I0
+sram decoder_1st_nor symbol
+I42
+I43
+I44
+I45
+I46
+I47
+I48
+I49
 #ISCELL
 basic ipin symbol
 PIN24

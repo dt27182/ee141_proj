@@ -12,10 +12,10 @@ I0
 I8
 #ISCELL
 basic ipin symbol
-PIN5
-PIN2
 PIN1
 PIN0
+PIN5
+PIN2
 #ISCELL
 basic iopin symbolr
 PIN4

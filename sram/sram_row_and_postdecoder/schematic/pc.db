@@ -1,9 +1,6 @@
 #
 sram sram_row schematic
 sram_row
-#
-sram postdecoder schematic
-I0
 #ISCELL
 basic ipin symbol
 PIN0
