@@ -1,9 +1,9 @@
 #
-sram output_buffer symbol
-I28
-I27
-I24
-I25
+sram output_latch symbol
+I31
+I29
+I35
+I33
 #
 sram pulldown symbol
 I20
@@ -39,6 +39,7 @@ basic ipin symbol
 PIN35
 PIN36
 PIN21
+PIN37
 PIN17
 PIN18
 PIN19
@@ -65,10 +66,6 @@ PIN4
 #ISCELL
 basic iopin symbolr
 PIN24
-PIN30
-PIN31
-PIN29
-PIN28
 PIN27
 PIN26
 PIN25

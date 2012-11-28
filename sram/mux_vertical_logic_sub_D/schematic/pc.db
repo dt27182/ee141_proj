@@ -1,4 +1,7 @@
 #
+sram xor symbol
+I7
+#
 sram mux2_10.04fF symbol
 I3
 #
@@ -12,15 +15,12 @@ sram mux2 symbol
 I8
 #
 sram inv_1x symbol
+I9
 I6
 I1
 I16
-I7
 I10
 I12
-#
-sram xor symbol
-I5
 #ISCELL
 basic opin symbol
 PIN5
