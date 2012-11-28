@@ -1,6 +1,9 @@
 #
-sram xor symbol
-I11
+sram inv_3fF symbol
+I18
+#
+sram xor_5fF symbol
+I17
 #
 sram mux2_8.28fF symbol
 I9
@@ -15,7 +18,6 @@ sram mux2 symbol
 I8
 #
 sram inv_1x symbol
-I13
 I6
 I1
 I16

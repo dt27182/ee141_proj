@@ -1,8 +1,8 @@
 #
-sram mux2_2fF symbol
-I38
-I37
-I36
+sram mux2 symbol
+I41
+I40
+I39
 #
 sram mux_vertical_logic_sub_D symbol
 D_VERT_LOGIC_SUB
