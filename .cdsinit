@@ -117,3 +117,4 @@
       (printf "Environment variable CDK_DIR must be defined to use\n")
       (printf "the NCSU CDK.  It is not defined in the calling environment\n")
       (printf "so the NCSU customizations will not be performed!\n"))))
+hiSetBindKey("Layout" "<Key>F5" "ivDRC(?cell geGetEditCellView())")
