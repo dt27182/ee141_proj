@@ -2,8 +2,8 @@
 gpdk090 nmos1v layout
 |NM2
 |NM1
-|NM3
 |NM0
+|NM3
 #
 gpdk090 pmos1v layout
 |PM2
@@ -38,6 +38,6 @@ in0
 Sel
 #ISCELL
 gpdk090 Metal1_T symbolic
+GND!
 out
 VDD!
-GND!
