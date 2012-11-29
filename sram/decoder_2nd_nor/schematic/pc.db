@@ -1,9 +1,9 @@
 #
+basic vdd symbol
+I2
+#
 basic GND symbol
 I1
-#
-basic VDD symbol
-I0
 #
 gpdk090 nmos1v symbol
 NM1
