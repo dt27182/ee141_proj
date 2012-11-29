@@ -14,16 +14,21 @@ gpdk090 nmos1v layout
 gpdk090 Metal1_T symbolic
 GND!
 VDD!
-out
-#ISCELL
-gpdk090 M1_PSUB symbolic
-I1
-#ISCELL
-gpdk090 M1_NWELL symbolic
-I2
 #ISCELL
 gpdk090 poly1_T symbolic
-I3
 Sel
 in0
 in1
+Selb
+#ISCELL
+gpdk090 M2_M1 symbolic
+I3
+#ISCELL
+gpdk090 Metal2_T symbolic
+out
+#ISCELL
+gpdk090 M1_NWELL symbolic
+I1
+#ISCELL
+gpdk090 M1_PSUB symbolic
+I2
