@@ -2,7 +2,7 @@
 sram inv_3fF symbol
 I18
 #
-sram xor_5fF symbol
+sram xor_3fF symbol
 I17
 #
 sram mux2_8.28fF symbol

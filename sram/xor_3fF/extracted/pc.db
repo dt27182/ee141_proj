@@ -1,0 +1,21 @@
+#
+gpdk090 pmos1v ivpcell
++4
++5
++6
++7
+#
+gpdk090 nmos1v ivpcell
++0
++1
++2
++3
+#ISCELL
+gpdk090 Metal1_T symbolic
+VDD!
+Out
+GND!
+Bbar
+B
+Abar
+A
