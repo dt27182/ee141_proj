@@ -36,6 +36,7 @@ O5
 gpdk090 M2_M1 symbolic
 I55
 I54
+I59
 I21
 I58
 I51
@@ -56,7 +57,7 @@ I1
 I31
 #ISCELL
 gpdk090 M3_M2 symbolic
-I20
+I24
 I53
 I52
 I47
@@ -66,6 +67,7 @@ I43
 I41
 I38
 I40
+I20
 I28
 I27
 I33
@@ -73,7 +75,6 @@ I36
 I32
 I23
 I22
-I24
 I19
 I18
 I13
