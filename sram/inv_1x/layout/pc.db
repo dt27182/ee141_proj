@@ -11,11 +11,11 @@ I23
 I22
 I21
 #ISCELL
-gpdk090 M1_NWELL symbolic
-I20
-#ISCELL
 gpdk090 M1_PO symbolic
 I18
 #ISCELL
 gpdk090 M1_PSUB symbolic
 I19
+#ISCELL
+gpdk090 M1_NWELL symbolic
+I20

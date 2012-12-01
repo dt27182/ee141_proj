@@ -1,0 +1,51 @@
+#
+sram inv_0.779fF symbol
+I15
+I14
+I13
+I12
+I11
+I10
+I9
+I8
+#
+sram decoder_1st_nor symbol
+I49
+I48
+I47
+I46
+I45
+I44
+I43
+I42
+#
+sram decoder_nand symbol
+I57
+I56
+I55
+I53
+I52
+I51
+I54
+I50
+#
+sram inv_en_delay symbol
+I74
+I75
+#ISCELL
+basic ipin symbol
+PIN0
+PIN1
+PIN2
+PIN3
+PIN24
+#ISCELL
+basic opin symbol
+PIN10
+PIN5
+PIN4
+PIN7
+PIN11
+PIN9
+PIN6
+PIN8
