@@ -6,10 +6,10 @@ gpdk090 nmos1v layout
 |NM0
 #
 gpdk090 pmos1v layout
-|PM2
+|PM0
 |PM1
 |PM3
-|PM0
+|PM2
 #ISCELL
 gpdk090 M1_PO symbolic
 I6

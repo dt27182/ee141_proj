@@ -1,7 +1,7 @@
 #
 gpdk090 pmos1v layout
-|PM0
 |PM3
+|PM0
 |PM1
 |PM2
 #
@@ -23,11 +23,11 @@ in1
 Selb
 #ISCELL
 gpdk090 M2_M1 symbolic
+I9
+I12
 I3
 I10
-I9
 I7
-I12
 #ISCELL
 gpdk090 M1_NWELL symbolic
 I1
@@ -36,8 +36,8 @@ gpdk090 M1_PSUB symbolic
 I2
 #ISCELL
 gpdk090 M1_PO symbolic
+I8
+I11
 I4
 I5
-I11
-I8
 I6
