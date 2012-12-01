@@ -21,12 +21,6 @@ sram mux2_7.07fF layout
 #
 sram mux2_10.04fF layout
 |I4
-#
-sram mux2_12.9fF layout
-|I11
-#
-sram xor_10.58fF layout
-|I16
 #ISCELL
 gpdk090 Metal2_T symbolic
 inputX
@@ -40,15 +34,14 @@ I48
 I50
 #ISCELL
 gpdk090 M3_M2 symbolic
-I24
-I62
 I43
-I34
-I25
+I62
 I56
 I57
+I25
 I39
 I30
+I34
 I35
 I37
 I3
@@ -59,6 +52,7 @@ I12
 I13
 I18
 I19
+I24
 I22
 I23
 I32
@@ -77,7 +71,6 @@ I53
 I20
 #ISCELL
 gpdk090 M2_M1 symbolic
-I42
 I31
 I1
 I26
@@ -92,6 +85,7 @@ I21
 I11
 I29
 I45
+I42
 I49
 I51
 I58
