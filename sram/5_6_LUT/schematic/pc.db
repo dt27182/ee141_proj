@@ -1,10 +1,4 @@
 #
-sram inv_0.779fF symbol
-I16
-I17
-I18
-I19
-#
 sram full_predecoder symbol
 PREDECODER
 #

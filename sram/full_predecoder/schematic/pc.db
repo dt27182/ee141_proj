@@ -1,4 +1,14 @@
 #
+sram inv_0.779fF symbol
+I15
+I8
+I11
+I14
+I10
+I12
+I13
+I9
+#
 sram inv_en_delay symbol
 I75
 I74
@@ -43,14 +53,10 @@ I49
 #ISCELL
 basic ipin symbol
 PIN24
-PIN8
-PIN15
-PIN14
-PIN13
-PIN12
-PIN11
-PIN10
-PIN9
+PIN25
+PIN26
+PIN27
+PIN28
 #ISCELL
 basic opin symbol
 PIN23
