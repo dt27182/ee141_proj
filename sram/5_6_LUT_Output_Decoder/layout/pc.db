@@ -3,38 +3,38 @@ sram mux2_3.51fF layout
 |I8
 #
 sram mux2_0.726fF layout
-|I6
 |I7
+|I6
 #
 sram inv_1x layout
-|I3
 |I4
+|I3
 #ISCELL
 gpdk090 Metal1_T symbolic
-L2
-L3
-L0
-L1
-In4
-In5
-VDD!
-GND!
-O6
 O5
+O6
+GND!
+VDD!
+In5
+In4
+L1
+L0
+L3
+L2
 #ISCELL
 gpdk090 M3_M2 symbolic
-I10
-I9
-I7
-I6
-I5
-I2
 I1
+I2
+I5
+I6
+I7
+I9
+I10
 #ISCELL
 gpdk090 M2_M1 symbolic
-I0
 I29
-I11
-I8
-I4
+I0
 I3
+I4
+I8
+I11
