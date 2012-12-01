@@ -8,8 +8,8 @@ gpdk090 nmos1v layout
 |NM1
 #ISCELL
 gpdk090 Metal1_T symbolic
-in2
 in1
+in2
 out
 GND!
 VDD!
