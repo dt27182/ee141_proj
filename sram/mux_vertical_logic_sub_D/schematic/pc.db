@@ -1,12 +1,9 @@
 #
+sram mux_vertical_logic_sub_common symbol
+I11
+#
 sram xor symbol
 I7
-#
-sram mux2_10.04fF symbol
-I3
-#
-sram mux2_7.07fF symbol
-I2
 #
 sram mux2_3.51fF symbol
 I0
@@ -15,21 +12,17 @@ sram mux2 symbol
 I8
 #
 sram inv_1x symbol
-I9
-I6
-I1
 I16
-I10
-I12
+I9
 #ISCELL
 basic opin symbol
 PIN5
 PIN6
 #ISCELL
 basic ipin symbol
+PIN8
 PIN1
 PIN7
 PIN3
 PIN4
-PIN8
 PIN11

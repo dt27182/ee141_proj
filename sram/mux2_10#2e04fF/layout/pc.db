@@ -32,9 +32,9 @@ I10
 I3
 #ISCELL
 gpdk090 poly1_T symbolic
-Selb
-in1
 in0
+in1
+Selb
 Sel
 #ISCELL
 gpdk090 Metal1_T symbolic

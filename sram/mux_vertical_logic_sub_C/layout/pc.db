@@ -3,10 +3,10 @@ sram xor layout
 I61
 #
 sram mux2_5.44fF layout
-I60
+I0
 #
 sram mux2 layout
-|I8
+|I14
 #
 sram inv_1x layout
 I59
@@ -36,6 +36,7 @@ I50
 gpdk090 M3_M2 symbolic
 I43
 I62
+I24
 I56
 I57
 I25
@@ -52,7 +53,6 @@ I12
 I13
 I18
 I19
-I24
 I22
 I23
 I32
@@ -68,7 +68,7 @@ I46
 I47
 I52
 I53
-I20
+I21
 #ISCELL
 gpdk090 M2_M1 symbolic
 I31
@@ -81,7 +81,6 @@ I8
 I14
 I17
 I7
-I21
 I11
 I29
 I45
@@ -89,6 +88,8 @@ I42
 I49
 I51
 I58
+I20
+I63
 I54
 I55
 #ISCELL

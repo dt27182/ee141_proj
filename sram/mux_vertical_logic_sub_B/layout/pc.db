@@ -1,108 +1,51 @@
 #
-sram mux2_8.28fF layout
-I60
+sram inv_3fF layout
+|I18
 #
-sram xor layout
-I61
+sram xor_3fF layout
+|I17
+#
+sram mux2_8.28fF layout
+|I9
+#
+sram mux2_10.04fF layout
+|I3
+#
+sram mux2_7.07fF layout
+|I2
 #
 sram mux2 layout
 |I8
 #
 sram inv_1x layout
-I59
+|I10
+|I16
 |I6
 |I1
-|I10
 |I12
-I30
-#
-sram mux2_7.07fF layout
-|I3
-#
-sram mux2_10.04fF layout
-|I4
-#
-sram mux2_3.51fF layout
-I65
-#ISCELL
-gpdk090 Metal3_T symbolic
-O5
-#ISCELL
-gpdk090 Metal2_T symbolic
-Cout
-inputX
-out_0
-#ISCELL
-gpdk090 M1_PO symbolic
-I10
-I6
-I48
-I50
-#ISCELL
-gpdk090 M3_M2 symbolic
-I46
-I63
-I31
-I32
-I43
-I62
-I56
-I57
-I25
-I39
-I34
-I35
-I37
-I3
-I2
-I16
-I15
-I12
-I13
-I18
-I19
-I24
-I22
-I23
-I36
-I33
-I27
-I28
-I40
-I38
-I41
-I44
-I47
-I52
-I53
-I20
-#ISCELL
-gpdk090 M2_M1 symbolic
-I64
-I45
-I1
-I26
-I4
-I9
-I5
-I8
-I14
-I17
-I7
-I21
-I11
-I29
-I42
-I49
-I51
-I58
-I54
-I55
 #ISCELL
 gpdk090 Metal1_T symbolic
-sout0
-Cin
-sout1
 O6
 VDD!
 GND!
+O5
+sout0
+Cin
+sout1
+inputX
+Cout
+#ISCELL
+gpdk090 M2_M1 symbolic
+I4
+I1
+#ISCELL
+gpdk090 M3_M2 symbolic
+I6
+I7
+I8
+I3
+I2
+I5
+#ISCELL
+gpdk090 Metal2_T symbolic
+out_0
