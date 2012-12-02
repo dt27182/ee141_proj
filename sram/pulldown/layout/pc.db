@@ -17,9 +17,9 @@ gpdk090 M1_PSUB symbolic
 I9
 #ISCELL
 gpdk090 Metal1_T symbolic
-I28
 I31
 I32
+I28
 #ISCELL
 gpdk090 M1_PO symbolic
 I24
