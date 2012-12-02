@@ -1,60 +1,51 @@
 #
+sram inv_3fF layout
+|I18
+#
+sram xor_3fF layout
+|I17
+#
+sram mux2_8.28fF layout
+|I9
+#
+sram mux2_10.04fF layout
+|I3
+#
+sram mux2_7.07fF layout
+|I2
+#
 sram mux2 layout
 |I8
 #
 sram inv_1x layout
-|I6
-|I1
-|I10
-#
-sram mux2_7.07fF layout
-|I3
-#
-sram mux2_10.04fF layout
-|I4
-#
-sram mux2_12.9fF layout
-|I11
-#
-sram inv_7.25fF layout
-|I15
-#
-sram xor_10.58fF layout
 |I16
-#ISCELL
-gpdk090 Metal2_T symbolic
-inputX
-#ISCELL
-gpdk090 M1_PO symbolic
-I10
-I6
-#ISCELL
-gpdk090 M3_M2 symbolic
-I3
-I2
-I16
-I15
-I12
-I13
-I18
-I19
-I22
-I23
-#ISCELL
-gpdk090 M2_M1 symbolic
-I1
-I4
-I9
-I5
-I8
-I14
-I17
-I7
-I11
+|I10
+|I1
+|I6
+|I12
 #ISCELL
 gpdk090 Metal1_T symbolic
-sout1
 O6
-sout0
 VDD!
+GND!
 O5
+sout0
+Cin
+sout1
+inputX
+Cout
+#ISCELL
+gpdk090 M2_M1 symbolic
+I4
+I1
+#ISCELL
+gpdk090 M3_M2 symbolic
+I6
+I7
+I8
+I3
+I2
+I5
+#ISCELL
+gpdk090 Metal2_T symbolic
+out_0
