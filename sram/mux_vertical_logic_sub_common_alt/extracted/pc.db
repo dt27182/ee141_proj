@@ -1,33 +1,30 @@
 #
 gpdk090 pmos1v ivpcell
-+12
-+13
-+14
-+19
++10
 +15
-+17
-+20
-+22
++11
++14
 +16
 +18
-+21
-+23
++12
++13
++17
++19
 #
 gpdk090 nmos1v ivpcell
 +0
-+1
-+2
-+7
-+3
 +5
-+8
-+10
-+4
++2
++3
 +6
++8
++1
++4
++7
 +9
-+11
 #ISCELL
 gpdk090 Metal1_T symbolic
+xor_in
 sout1
 sout0_in
 sout0_bar_out
@@ -35,12 +32,7 @@ VDD!
 GND!
 #ISCELL
 gpdk090 Metal3_T symbolic
-xor_in
 carry_in
-O6_xor
-O6_bar_xor
-O6_bar
-O6
 #ISCELL
 gpdk090 Metal2_T symbolic
 out_0
