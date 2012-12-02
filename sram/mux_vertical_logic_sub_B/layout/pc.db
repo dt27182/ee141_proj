@@ -18,10 +18,10 @@ sram mux2 layout
 |I8
 #
 sram inv_1x layout
-|I10
 |I16
-|I6
+|I10
 |I1
+|I6
 |I12
 #ISCELL
 gpdk090 Metal1_T symbolic
