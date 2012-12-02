@@ -8,9 +8,9 @@ gpdk090 pmos1v layout
 |PM0
 #ISCELL
 gpdk090 Metal1_T symbolic
+out
 GND!
 vdd!
-out
 in1
 in2
 #ISCELL
