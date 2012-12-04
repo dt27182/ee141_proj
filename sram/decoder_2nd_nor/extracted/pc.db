@@ -16,8 +16,8 @@ gpdk090 nmos1v ivpcell
 +3
 #ISCELL
 gpdk090 Metal1_T symbolic
-vdd!
 out
 in2
 in1
+VDD!
 GND!
