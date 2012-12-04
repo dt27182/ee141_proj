@@ -1,0 +1,28 @@
+#
+sram 5_6_LUT_Output_Decoder symbol
+I1
+#
+sram 5_6_LUT symbol
+I0
+#ISCELL
+basic ipin symbol
+PIN15
+PIN14
+PIN13
+PIN12
+PIN11
+PIN10
+PIN9
+PIN8
+PIN7
+PIN6
+PIN5
+PIN4
+PIN3
+PIN2
+PIN1
+PIN0
+#ISCELL
+basic opin symbol
+PIN17
+PIN16
