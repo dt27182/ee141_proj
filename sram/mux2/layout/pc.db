@@ -41,3 +41,8 @@ gpdk090 Metal1_T symbolic
 out
 VDD!
 GND!
+#ISCELL
+gpdk090 M3_M2 symbolic
+I13
+I14
+I15

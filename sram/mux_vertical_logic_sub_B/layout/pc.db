@@ -1,4 +1,7 @@
 #
+sram mux_vertical_logic_sub_common layout
+|I19
+#
 sram inv_3fF layout
 |I18
 #
@@ -8,44 +11,75 @@ sram xor_3fF layout
 sram mux2_8.28fF layout
 |I9
 #
-sram mux2_10.04fF layout
-|I3
-#
-sram mux2_7.07fF layout
-|I2
-#
 sram mux2 layout
 |I8
 #
 sram inv_1x layout
 |I16
-|I10
-|I1
-|I6
-|I12
 #ISCELL
 gpdk090 Metal1_T symbolic
-O6
+Cin
+inputX
 VDD!
 GND!
-O5
-sout0
-Cin
-sout1
-inputX
-Cout
 #ISCELL
 gpdk090 M2_M1 symbolic
-I4
+I41
 I1
+I7
+I25
+I29
+I34
+I35
+I20
+I39
+I38
 #ISCELL
 gpdk090 M3_M2 symbolic
-I6
-I7
-I8
-I3
+I42
+I47
+I46
+I45
 I2
+I6
+I9
 I5
+I10
+I13
+I11
+I14
+I12
+I4
+I3
+I8
+I16
+I15
+I17
+I18
+I19
+I22
+I23
+I24
+I26
+I27
+I28
+I30
+I37
+I31
+I32
+I33
+I36
+I40
+I21
 #ISCELL
 gpdk090 Metal2_T symbolic
+sout0
+sout1
+O6
 out_0
+Cout
+O5
+#ISCELL
+gpdk090 M4_M3 symbolic
+I44
+I43
