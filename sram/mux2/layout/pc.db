@@ -25,11 +25,11 @@ gpdk090 M1_NWELL symbolic
 I1
 #ISCELL
 gpdk090 M2_M1 symbolic
+I3
 I12
 I7
 I9
 I10
-I3
 #ISCELL
 gpdk090 poly1_T symbolic
 Selb
@@ -41,8 +41,3 @@ gpdk090 Metal1_T symbolic
 out
 VDD!
 GND!
-#ISCELL
-gpdk090 M3_M2 symbolic
-I13
-I14
-I15
