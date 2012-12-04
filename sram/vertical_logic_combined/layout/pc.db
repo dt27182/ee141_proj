@@ -1,0 +1,16 @@
+#
+sram mux_vertical_logic_sub_A layout
+|A_VERT_LOGIC_SUB
+#
+sram mux_vertical_logic_sub_B layout
+|B_VERT_LOGIC_SUB
+#
+sram mux_vertical_logic_sub_C layout
+|C_VERT_LOGIC_SUB
+#
+sram mux_vertical_logic_sub_D layout
+|D_VERT_LOGIC_SUB
+#ISCELL
+gpdk090 Metal1_T symbolic
+GND!
+VDD!

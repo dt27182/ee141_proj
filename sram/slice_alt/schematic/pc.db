@@ -1,18 +1,9 @@
 #
-sram lut_decoder symbol
-I0
-#
-sram mux_vertical_logic_sub_A symbol
+sram vertical_logic_combined symbol
 I1
 #
-sram mux_vertical_logic_sub_B symbol
-I2
-#
-sram mux_vertical_logic_sub_C symbol
-I3
-#
-sram mux_vertical_logic_sub_D symbol
-I4
+sram lut_decoder symbol
+I0
 #ISCELL
 basic opin symbol
 PIN47
