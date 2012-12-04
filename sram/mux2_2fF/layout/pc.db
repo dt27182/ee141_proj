@@ -6,8 +6,8 @@ gpdk090 pmos1v layout
 |PM0
 #
 gpdk090 nmos1v layout
-|NM3
 |NM0
+|NM3
 |NM1
 |NM2
 #ISCELL
