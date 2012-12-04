@@ -10,11 +10,12 @@ gpdk090 pmos1v layout
 gpdk090 Metal1_T symbolic
 out
 GND!
-vdd!
+VDD!
 in1
 in2
 #ISCELL
 gpdk090 M2_M1 symbolic
+I17
 I13
 I4
 I6
@@ -37,5 +38,9 @@ I12
 I11
 #ISCELL
 gpdk090 M3_M2 symbolic
+I18
 I14
 I15
+#ISCELL
+gpdk090 M4_M3 symbolic
+I19
