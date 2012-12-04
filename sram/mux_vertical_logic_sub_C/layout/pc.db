@@ -20,9 +20,8 @@ VDD!
 GND!
 #ISCELL
 gpdk090 M3_M2 symbolic
-I45
 I44
-I32
+I45
 I1
 I2
 I5
@@ -54,10 +53,11 @@ I36
 I37
 I41
 I42
+I32
 #ISCELL
 gpdk090 M2_M1 symbolic
-I40
 I13
+I40
 I4
 I3
 I24

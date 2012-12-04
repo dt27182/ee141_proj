@@ -37,9 +37,8 @@ I38
 #ISCELL
 gpdk090 M3_M2 symbolic
 I42
-I47
-I46
-I45
+I49
+I48
 I2
 I6
 I9
@@ -70,15 +69,18 @@ I32
 I33
 I36
 I40
+I45
+I46
+I47
 I21
 #ISCELL
 gpdk090 Metal2_T symbolic
-sout0
 sout1
 O6
 out_0
 Cout
 O5
+sout0
 #ISCELL
 gpdk090 M4_M3 symbolic
 I44
