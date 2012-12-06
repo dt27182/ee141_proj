@@ -1,0 +1,34 @@
+#
+sram vertical_logic_combined layout
+|I1
+#
+sram lut_decoder layout
+|I0
+#ISCELL
+gpdk090 Metal1_T symbolic
+VDD!
+GND!
+#ISCELL
+gpdk090 M3_M2 symbolic
+I20
+I19
+I18
+I15
+I13
+I14
+I7
+I8
+I6
+I11
+I5
+I4
+I3
+I2
+I1
+I9
+I10
+I12
+#ISCELL
+gpdk090 M4_M3 symbolic
+I17
+I16

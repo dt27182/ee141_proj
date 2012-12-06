@@ -6,10 +6,10 @@ gpdk090 pmos1v layout
 I17
 #ISCELL
 gpdk090 Metal1_T symbolic
-I23
-I21
 I24
+I23
 I22
+I21
 #ISCELL
 gpdk090 M1_PO symbolic
 I18

@@ -12,18 +12,18 @@ sram mux_vertical_logic_sub_D layout
 |D_VERT_LOGIC_SUB
 #ISCELL
 gpdk090 Metal1_T symbolic
-GND!
 VDD!
+GND!
 #ISCELL
 gpdk090 M4_M3 symbolic
-I6
-I2
-I3
-I8
-I1
 I7
+I1
+I8
+I3
+I2
+I6
 #ISCELL
 gpdk090 M3_M2 symbolic
 I5
-I4
 I9
+I4
